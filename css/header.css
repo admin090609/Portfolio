@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar > .logo {
+  padding: 1vh 2vh;
+}
+.navbar > .logo > a > img {
+  width: 75px;
+}
+.navbar > .text {
+  display: flex;
+  padding: 3vh 2vh;
+}
+.navbar > .text > .t {
+  transition: transform 0.35s ease 0.1s;
+}
+.navbar > .text > .t > a {
+  color: #4c595d;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar > .text > .t:nth-child(1), .navbar > .text > .t:nth-child(2) {
+  margin-right: 3vh;
+}
+.navbar > .text > .t > a:hover {
+  color: #90a3af;
+}
+.navbar > .text > .t:hover {
+  transform: translateY(-3px);
+}
+.navbar > .bt > .gt {
+  padding: 1.75vh 2vh;
+}
+.navbar > .bt > .gt > button {
+  padding: 1vh 2vh;
+  background-color: rgba(15, 15, 15, 0.968627451);
+  border: #4c595d solid 2px;
+  color: #4c595d;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.35s ease 0.1s;
+}
+.navbar > .bt > .gt > button:hover {
+  background-color: rgba(35, 35, 35, 0.968627451);
+  border: #90a3af solid 2px;
+  color: #90a3af;
+  transform: translateY(-2px);
+}/*# sourceMappingURL=header.css.map */

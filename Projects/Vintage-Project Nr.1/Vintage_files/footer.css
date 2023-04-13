@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #efefef;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  footer {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+footer > .r1 {
+  line-height: 2.5vh;
+  padding: 2.5vh 10vh;
+}
+@media only screen and (max-width: 1024px) {
+  footer > .r1 {
+    line-height: 3vh;
+  }
+}
+footer > .r1 > .title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 2vh 2vh;
+}
+@media only screen and (max-width: 1024px) {
+  footer > .r1 > .title {
+    font-size: 30px;
+  }
+}
+footer > .r1 > div {
+  font-size: 20px;
+  line-height: 2.5rem;
+}
+footer > .r1 > div > a {
+  text-decoration: none;
+  color: black;
+}
+footer > .r1 > div > a:hover {
+  text-decoration: underline;
+}
+footer > .r2 {
+  line-height: 2.5vh;
+  padding: 2.5vh 10vh;
+}
+@media only screen and (max-width: 1024px) {
+  footer > .r2 {
+    line-height: 3vh;
+  }
+}
+footer > .r2 > .title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 2vh 2vh;
+}
+@media only screen and (max-width: 1024px) {
+  footer > .r2 > .title {
+    font-size: 30px;
+  }
+}
+footer > .r2 > div {
+  font-size: 20px;
+  line-height: 2.5rem;
+}
+footer > .r2 > div > a {
+  text-decoration: none;
+  color: black;
+}
+footer > .r2 > div > a:hover {
+  text-decoration: underline;
+}
+footer > .r3 {
+  line-height: 2.5vh;
+  padding: 2.5vh 10vh;
+}
+@media only screen and (max-width: 1024px) {
+  footer > .r3 {
+    line-height: 3vh;
+  }
+}
+footer > .r3 > .title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 2vh 2vh;
+}
+@media only screen and (max-width: 1024px) {
+  footer > .r3 > .title {
+    font-size: 30px;
+  }
+}
+footer > .r3 > .images {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > .r3 > .images > a > img {
+  width: 45px;
+  margin: 1vh 1vh;
+}
+@media only screen and (max-width: 1024px) {
+  footer > .r3 > .images > a > img {
+    width: 35px;
+  }
+}/*# sourceMappingURL=footer.css.map */

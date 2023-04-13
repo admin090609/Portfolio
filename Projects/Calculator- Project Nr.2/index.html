@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="devices.min.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="marvel-device iphone-x">
+      <div class="notch">
+        <div class="camera"></div>
+        <div class="speaker"></div>
+      </div>
+      <div class="top-bar"></div>
+      <div class="sleep"></div>
+      <div class="bottom-bar"></div>
+      <div class="volume"></div>
+      <div class="overflow">
+        <div class="shadow shadow--tr"></div>
+        <div class="shadow shadow--tl"></div>
+        <div class="shadow shadow--br"></div>
+        <div class="shadow shadow--bl"></div>
+      </div>
+      <div class="inner-shadow"></div>
+      <div class="screen">
+        <!-- Content goes here -->
+        <div class="calculator">
+          <div class="display">
+            <input type="text" placeholder="0" id="span" name="span" disabled />
+          </div>
+          <div class="bt">
+            <input type="button" value="AC" id="AC" onclick="span.value=''" />
+            <input type="button" value="+/-" id="plusminus" onclick="PM()" />
+            <input type="button" value="%" id="percent" onclick="PC()" />
+            <input
+              type="button"
+              value="÷"
+              id="divide"
+              onclick="span.value+=`/`"
+            />
+          </div>
+          <div class="bt">
+            <input type="button" value="7" id="n7" onclick="span.value+=`7`" />
+            <input type="button" value="8" id="n8" onclick="span.value+=`8`" />
+            <input type="button" value="9" id="n9" onclick="span.value+=`9`" />
+            <input type="button" value="×" id="x" onclick="span.value+=`*`" />
+          </div>
+          <div class="bt">
+            <input type="button" value="4" id="n4" onclick="span.value+=`4`" />
+            <input type="button" value="5" id="n5" onclick="span.value+=`5`" />
+            <input type="button" value="6" id="n6" onclick="span.value+=`6`" />
+            <input
+              type="button"
+              value="-"
+              id="minus"
+              onclick="span.value+=`-`"
+            />
+          </div>
+          <div class="bt">
+            <input type="button" value="1" id="n1" onclick="span.value+=`1`" />
+            <input type="button" value="2" id="n2" onclick="span.value+=`2`" />
+            <input type="button" value="3" id="n3" onclick="span.value+=`3`" />
+            <input
+              type="button"
+              value="+"
+              id="plus"
+              onclick="span.value+=`+`"
+            />
+          </div>
+          <div class="bt">
+            <input type="button" value="0" id="n0" onclick="span.value+=`0`" />
+            <input type="button" value="." id="dot" onclick="span.value+=`.`" />
+            <input
+              type="button"
+              value="="
+              id="equal"
+              onclick="span.value=eval(span.value)"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
