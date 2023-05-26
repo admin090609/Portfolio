@@ -21,8 +21,8 @@ window.addEventListener("scroll", function () {
     var keyboard = document.getElementById('img1'),
         deg = rotated ? 0 : 66;
 
-    keyboard.style.transform = 'rotate(' + deg* value* -.0025 + 'deg)';
-    vr.style.transform = 'rotate(' + deg* value* .001125 + 'deg)';
+    keyboard.style.transform = 'rotate(' + deg * value * -.0025 + 'deg)';
+    vr.style.transform = 'rotate(' + deg * value * .001125 + 'deg)';
 
 
     rotated = !rotated;
